@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body{
+    background-color: #000;
+}
+
+main::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 70vw;
+    background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+    
+}
+
+main .personagem{
+    display: none;
+    height: 100vh;
+}
+
+main .personagem.selecionado{
+    display: block;
+}
+
+main .personagem .imagem{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*mantém as dimensões corretas, mas cobrindo o elemento também*/
+
+}
+
+.conteudo{
+    position: absolute; 
+    top: 0;
+    left: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 380px;
+    z-index: 1; /*eixo z de camadas*/
+   
+}
+
+.conteudo .nome-personagem{
+    font-family: 'Secular One', sans-serif;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.conteudo .descricao{
+    font-family: 'Rubik';
+    color: #fff;
+    line-height: 16px;
+}
+
+.conteudo .logo{
+    background-size: cover;
+    background-image: url("../img/one-piece-logo.png");
+    height: 100px;
+    width: 230px;
+    margin-bottom: 35px;
+}
+
+.botoes{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.botoes img{
+    max-width: 90px;
+    max-height: 90px;
+}
