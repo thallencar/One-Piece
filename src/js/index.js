@@ -40,7 +40,7 @@ botoes.forEach((botao, indice) => {
         personagens[indice].classList.add("selecionado");
     
     });
-      
+     
 })
 
 

@@ -94,13 +94,9 @@ main .personagem .imagem{
 }
 .botoes .botao{
     border: none;
-    background: #000;
+    background: none;
     cursor: pointer;
-    border-radius: 50%;
-}
-
-.botoes .botao img{
-    border-radius: 50%;
+    
 }
 
 .botoes img{
@@ -108,15 +104,10 @@ main .personagem .imagem{
     max-height: 90px;
 }
 
-.bt-usopp img {
-    background-color: #000;
-}
-
 .botoes .botao.selecionado{
-    transform: scale(1.15);
-    box-shadow: 0 0 10px #ffffff;
-
+    transform: scale(1.3);
 }
+
 
 @media (max-width: 769px){
     main::after{
