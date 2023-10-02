@@ -12,6 +12,7 @@ ul {
 
 body{
     background-color: #000;
+    overflow: hidden;
 }
 
 main::after {
@@ -81,9 +82,39 @@ main .personagem .imagem{
     position: fixed;
     top: 0;
     right: 0;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    gap: 10px;
+}
+.botoes .botao{
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.botoes .botao img{
+    border-radius: 50%;
 }
 
 .botoes img{
     max-width: 90px;
     max-height: 90px;
 }
+
+.bt-usopp img {
+    background-color: #000;
+}
+
+.botoes .botao.selecionado{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #D9D9D9D9;
+
+}
+
