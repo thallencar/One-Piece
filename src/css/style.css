@@ -70,9 +70,9 @@ main .personagem .imagem{
     line-height: 16px;
 }
 
-.conteudo .logo{
+.conteudo .logo-luffy{
     background-size: cover;
-    background-image: url("../img/one-piece-logo.png");
+    background-image: url("../img/logo/one-piece-logo.png");
     height: 100px;
     width: 230px;
     margin-bottom: 35px;
