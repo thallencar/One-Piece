@@ -78,6 +78,50 @@ main .personagem .imagem{
     margin-bottom: 35px;
 }
 
+.conteudo .logo-zoro{
+    background-size: cover;
+    background-image: url("../img/logo/logo-zoro.png");
+    height: 110px;
+    width: 255px;
+    margin-bottom: 35px;
+}
+
+.conteudo .logo-nami{
+    background-size: cover;
+    background-image: url("../img/logo/logo-nami.png");
+    height: 100px;
+    width: 280px;
+    margin-left: -20px;
+    margin-bottom: 35px;
+}
+
+.conteudo .logo-usopp{
+    background-size: cover;
+    background-image: url("../img/logo/logo-usopp.png");
+    height: 100px;
+    width: 300px;
+    margin-left: -15px;
+    margin-bottom: 35px;
+}
+
+.conteudo .logo-sanji{
+    background-size: cover;
+    background-image: url("../img/logo/logo-sanji.png");
+    height: 110px;
+    width: 265px;
+    margin-bottom: 35px;
+}
+
+.conteudo .logo-chopper{
+    background-size: cover;
+    background-image: url("../img/logo/logo-chopper.png");
+    height: 100px;
+    width: 300px;
+    margin-left: -30px;
+    margin-bottom: 35px;
+    
+}
+
 .botoes{
     position: fixed;
     top: 0;
@@ -107,6 +151,14 @@ main .personagem .imagem{
 .botoes .botao.selecionado{
     transform: scale(1.3);
 }
+
+.botoes .botao.bt-usopp img {
+    max-width: 120px; 
+    max-height: 130px; 
+    margin: -20px;
+    margin-top: -30px;
+}
+
 
 
 @media (max-width: 769px){
