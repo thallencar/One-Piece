@@ -78,3 +78,12 @@
     font-weight: 400;
     margin-bottom: 12px;
 }
+
+.conteudo .nome-personagem.jinbe{
+    font-family: 'Secular One', sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 15px rgba(255, 196, 0, 0.863);
+    font-size: 43px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}

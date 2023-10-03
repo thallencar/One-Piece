@@ -10,12 +10,12 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.3);
-    gap: 12px;
+    gap: 15px;
 
 
     overflow-y: auto;
     max-height: 100vh;
-    padding-top: 140px;
+    padding-top: 490px;
 }
 
 
@@ -53,4 +53,11 @@
 
 .botoes .botao.bt-robin img {
     margin-top: 10px;
+}
+
+
+.botoes .botao.jinbe img{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    width: 80px;
 }
