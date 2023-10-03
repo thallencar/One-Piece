@@ -1,7 +1,8 @@
 # Wiki Strawhats
 ### Projeto criado e modificado a partir do projeto inicial da imersão DeD.
 
-![One Piece](./src/img/project.png)
+![Imagens do Projeto](./src/img/project/project-img1.png)
+[](./src/img/project/project-img2.png)
 
 [Link do Projeto](https://github.com/thallencar)
 
