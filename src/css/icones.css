@@ -34,6 +34,10 @@
     transform: scale(1); 
 }
 
+.botoes .botao:hover { 
+    transform: scale(1.2);
+}
+
 .botoes .botao.bt-usopp img {
     max-width: 120px; 
     max-height: 130px; 
