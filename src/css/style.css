@@ -6,6 +6,19 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar{
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: #ffffff70;
+    border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffffc0; 
+}
+
 ul {
     list-style: none;
 }
@@ -62,3 +75,4 @@ main .personagem .imagem{
     color: #fff;
     line-height: 16px;
 }
+
