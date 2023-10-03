@@ -39,13 +39,14 @@ main .personagem .imagem{
     width: 100%;
     height: 100%;
     object-fit: cover; /*mantém as dimensões corretas, mas cobrindo o elemento também*/
+    opacity: 0.55;
 
 }
 
 .conteudo{
     position: absolute; 
     top: 0;
-    left: 120px;
+    left: 100px;
 
     display: flex;
     flex-direction: column;
@@ -61,7 +62,15 @@ main .personagem .imagem{
     color: #fff;
     font-size: 48px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.conteudo .nome-personagem.chopper{
+    font-family: 'Secular One', sans-serif;
+    color: #fff;
+    font-size: 43px;
+    font-weight: 400;
+    margin-bottom: 12px;
 }
 
 .conteudo .descricao{
@@ -75,7 +84,7 @@ main .personagem .imagem{
     background-image: url("../img/logo/one-piece-logo.png");
     height: 100px;
     width: 230px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .conteudo .logo-zoro{
@@ -83,7 +92,7 @@ main .personagem .imagem{
     background-image: url("../img/logo/logo-zoro.png");
     height: 110px;
     width: 255px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 
 .conteudo .logo-nami{
@@ -92,7 +101,7 @@ main .personagem .imagem{
     height: 100px;
     width: 280px;
     margin-left: -20px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 .conteudo .logo-usopp{
@@ -101,7 +110,7 @@ main .personagem .imagem{
     height: 100px;
     width: 300px;
     margin-left: -15px;
-    margin-bottom: 35px;
+    margin-bottom: 12px;
 }
 
 .conteudo .logo-sanji{
@@ -109,7 +118,7 @@ main .personagem .imagem{
     background-image: url("../img/logo/logo-sanji.png");
     height: 110px;
     width: 265px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 
 .conteudo .logo-chopper{
@@ -118,7 +127,7 @@ main .personagem .imagem{
     height: 100px;
     width: 300px;
     margin-left: -30px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     
 }
 
