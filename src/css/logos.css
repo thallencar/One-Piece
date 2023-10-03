@@ -61,8 +61,17 @@
 .conteudo .logo-franky{
     background-size: cover;
     background-image: url("../img/logo/logo-franky.png");
-    height: 125px;
-    width: 270px;
+    height: 100px;
+    width: 300px;
+    margin-left: -10px;
+    margin-bottom: 15px;    
+}
+
+.conteudo .logo-brook{
+    background-size: cover;
+    background-image: url("../img/logo/logo-brook.png");
+    height: 130px;
+    width: 300px;
     margin-left: -10px;
     margin-bottom: 15px;    
 }
