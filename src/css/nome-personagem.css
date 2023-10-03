@@ -60,3 +60,12 @@
     font-weight: 400;
     margin-bottom: 12px;
 }
+
+.conteudo .nome-personagem.franky{
+    font-family: 'Secular One', sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 15px rgb(79, 197, 252);
+    font-size: 43px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}

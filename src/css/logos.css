@@ -3,7 +3,7 @@
     background-image: url("../img/logo/one-piece-logo.png");
     height: 100px;
     width: 230px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .conteudo .logo-zoro{
@@ -20,7 +20,7 @@
     height: 100px;
     width: 280px;
     margin-left: -20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .conteudo .logo-usopp{
@@ -29,7 +29,7 @@
     height: 100px;
     width: 300px;
     margin-left: -15px;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 .conteudo .logo-sanji{
@@ -46,8 +46,7 @@
     height: 100px;
     width: 300px;
     margin-left: -30px;
-    margin-bottom: 25px;
-    
+    margin-bottom: 15px;  
 }
 
 .conteudo .logo-robin{
@@ -56,6 +55,14 @@
     height: 125px;
     width: 300px;
     margin-left: -10px;
-    margin-bottom: 25px;
-    
+    margin-bottom: 15px;    
+}
+
+.conteudo .logo-franky{
+    background-size: cover;
+    background-image: url("../img/logo/logo-franky.png");
+    height: 125px;
+    width: 270px;
+    margin-left: -10px;
+    margin-bottom: 15px;    
 }
