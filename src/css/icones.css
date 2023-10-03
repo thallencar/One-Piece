@@ -11,7 +11,13 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.3);
     gap: 12px;
+
+
+    overflow-y: auto;
+    max-height: 100vh;
+    padding-top: 140px;
 }
+
 
 .botoes img{
     max-width: 90px;
@@ -43,4 +49,8 @@
     max-height: 130px; 
     margin: -20px;
     margin-top: -30px;
+}
+
+.botoes .botao.bt-robin img {
+    margin-top: 10px;
 }

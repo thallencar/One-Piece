@@ -49,3 +49,13 @@
     margin-bottom: 25px;
     
 }
+
+.conteudo .logo-robin{
+    background-size: cover;
+    background-image: url("../img/logo/logo-nr.png");
+    height: 125px;
+    width: 300px;
+    margin-left: -10px;
+    margin-bottom: 25px;
+    
+}

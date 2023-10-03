@@ -1,7 +1,7 @@
 .conteudo .nome-personagem.luffy{
     font-family: 'Secular One', sans-serif;
     color: #fff;
-    text-shadow: 5px 5px 5px rgba(23, 136, 202, 0.5);
+    text-shadow: 2px 2px 15px rgb(23, 136, 202);
     font-size: 46px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -10,7 +10,7 @@
 .conteudo .nome-personagem.zoro{
     font-family: 'Secular One', sans-serif;
     color: #fff;
-    text-shadow: 5px 5px 5px rgb(25, 70, 4);
+    text-shadow: 2px 2px 15px rgb(25, 70, 4);
     font-size: 46px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -19,7 +19,7 @@
 .conteudo .nome-personagem.nami{
     font-family: 'Secular One', sans-serif;
     color: #fff;
-    text-shadow: 5px 5px 5px rgba(0, 255, 179, 0.7);
+    text-shadow: 2px 2px 15px rgba(0, 255, 179, 0.7);
     font-size: 46px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -28,7 +28,7 @@
 .conteudo .nome-personagem.usopp{
     font-family: 'Secular One', sans-serif;
     color: #fff;
-    text-shadow: 5px 5px 5px rgba(54, 121, 23, 0.7);
+    text-shadow: 2px 2px 15px rgb(23, 121, 23);
     font-size: 46px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -37,7 +37,7 @@
 .conteudo .nome-personagem.sanji{
     font-family: 'Secular One', sans-serif;
     color: #fff;
-    text-shadow: 5px 5px 5px rgba(255, 217, 0, 0.8);
+    text-shadow: 2px 2px 15px rgb(255, 217, 0);
     font-size: 46px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -46,7 +46,16 @@
 .conteudo .nome-personagem.chopper{
     font-family: 'Secular One', sans-serif;
     color: #ffffff;
-    text-shadow: 5px 5px 5px rgba(255, 0, 128, 0.7);
+    text-shadow: 2px 2px 15px rgb(255, 0, 128);
+    font-size: 43px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.conteudo .nome-personagem.robin{
+    font-family: 'Secular One', sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 15px rgba(188, 129, 255, 0.7);
     font-size: 43px;
     font-weight: 400;
     margin-bottom: 12px;
