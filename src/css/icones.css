@@ -1,0 +1,42 @@
+.botoes{
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    gap: 12px;
+}
+
+.botoes img{
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.botoes .botao{
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: 500ms linear; 
+    
+}
+
+.botoes .botao.selecionado{
+    transform: scale(1.3);
+}
+
+.botoes .botao:not(.selecionado) {
+    transform: scale(1); 
+}
+
+.botoes .botao.bt-usopp img {
+    max-width: 120px; 
+    max-height: 130px; 
+    margin: -20px;
+    margin-top: -30px;
+}

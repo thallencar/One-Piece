@@ -1,0 +1,51 @@
+.conteudo .logo-luffy{
+    background-size: cover;
+    background-image: url("../img/logo/one-piece-logo.png");
+    height: 100px;
+    width: 230px;
+    margin-bottom: 25px;
+}
+
+.conteudo .logo-zoro{
+    background-size: cover;
+    background-image: url("../img/logo/logo-zoro.png");
+    height: 110px;
+    width: 255px;
+    margin-bottom: 15px;
+}
+
+.conteudo .logo-nami{
+    background-size: cover;
+    background-image: url("../img/logo/logo-nami.png");
+    height: 100px;
+    width: 280px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+.conteudo .logo-usopp{
+    background-size: cover;
+    background-image: url("../img/logo/logo-usopp.png");
+    height: 100px;
+    width: 300px;
+    margin-left: -15px;
+    margin-bottom: 12px;
+}
+
+.conteudo .logo-sanji{
+    background-size: cover;
+    background-image: url("../img/logo/logo-sanji.png");
+    height: 110px;
+    width: 265px;
+    margin-bottom: 15px;
+}
+
+.conteudo .logo-chopper{
+    background-size: cover;
+    background-image: url("../img/logo/logo-chopper.png");
+    height: 100px;
+    width: 300px;
+    margin-left: -30px;
+    margin-bottom: 25px;
+    
+}
