@@ -66,7 +66,7 @@
 
 @media (max-width: 500px) {
   .nome-personagem {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .nome-personagem.chopper {
@@ -74,7 +74,7 @@
   }
 
   .descricao {
-    font-size: 0.813rem;
+    font-size: 0.875rem;
     max-width: 100vw;
   }
 }

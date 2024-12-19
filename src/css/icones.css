@@ -11,7 +11,8 @@
   min-height: 100vh;
   max-height: 100vh;
   width: 11.25rem;
-  padding: 18rem 0 0.6rem;
+  /* padding: 18rem 0 0.6rem; */
+  padding-bottom: 0.6rem;
   overflow-y: auto;
 }
 
@@ -65,13 +66,12 @@
 @media (max-width: 769px) {
   .botoes {
     flex-direction: row;
+    justify-content: start;
     align-items: flex-end;
     width: 100%;
-    padding: 1.875rem;
-    padding-left: 10.375rem;
+    padding: 3rem;
     overflow-x: auto;
     scroll-behavior: smooth;
-    min-width: 100%;
   }
 
   .botoes .botao img {
@@ -90,15 +90,12 @@
 
 @media (max-width: 500px) {
   .botoes {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    top: -3%;
-    padding: 1.25rem;
+    justify-content: start;
+    top: -7%;
+    padding: 1.25rem 2.5rem;
   }
 
   .botoes .botao img {
-    max-width: 3.125rem;
+    max-width: 3.5rem;
   }
 }
