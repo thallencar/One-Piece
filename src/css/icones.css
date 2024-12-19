@@ -11,7 +11,7 @@
   min-height: 100vh;
   max-height: 100vh;
   width: 11.25rem;
-  /* padding: 18rem 0 0.6rem; */
+  padding: 18rem 0 0.6rem; 
   padding-bottom: 0.6rem;
   overflow-y: auto;
 }
