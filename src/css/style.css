@@ -1,78 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-::-webkit-scrollbar{
-    width: 6px;
-  }
-  
-  ::-webkit-scrollbar-thumb{
-    background-color: #ffffff70;
-    border-radius: 6px;
-  }
+::-webkit-scrollbar {
+  width: 7px;
+}
 
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #ffffffc0; 
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff70;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffffffc0;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-body{
-    background-color: #000;
-    overflow: hidden;
+body {
+  background-color: #000;
+  overflow: hidden;
 }
 
 main::after {
-    content: "";
-    position: fixed;
-    top: 0;
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 70vw;
+  background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+}
+
+main .personagem {
+  display: none;
+  height: 100vh;
+}
+
+main .personagem.selecionado {
+  display: block;
+}
+
+main .personagem .imagem {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*mantém as dimensões corretas, mas cobrindo o elemento também*/
+  opacity: 0.55;
+}
+
+.conteudo {
+  position: absolute;
+  top: 0;
+  left: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 380px;
+  z-index: 1; /*eixo z de camadas*/
+}
+
+@media (max-width: 769px) {
+  main::after {
+    background: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0) 65%) no-repeat;
+    width: 100vw;
+  }
+
+  main .personagem .imagem {
+    height: 85%;
+  }
+
+  .conteudo {
+    justify-content: flex-end;
     left: 0;
-    min-height: 100vh;
-    width: 70vw;
-    background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
-    
+    top: -20%;
+    max-width: 100vw;
+    padding: 30px;
+  }
 }
 
-main .personagem{
-    display: none;
-    height: 100vh;
-}
-
-main .personagem.selecionado{
-    display: block;
-}
-
-main .personagem .imagem{
+@media (max-width: 500px) {
+  main .personagem .imagem {
+    height: auto;
+    max-height: 13rem;
     width: 100%;
-    height: 100%;
-    object-fit: cover; /*mantém as dimensões corretas, mas cobrindo o elemento também*/
-    opacity: 0.55;
+  }
 
+  .conteudo {
+    top: -30%;
+  }
 }
-
-.conteudo{
-    position: absolute; 
-    top: 0;
-    left: 100px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 100vh;
-    max-width: 380px;
-    z-index: 1; /*eixo z de camadas*/
-   
-}
-
-.conteudo .descricao{
-    font-family: 'Rubik';
-    color: #fff;
-    line-height: 16px;
-}
-

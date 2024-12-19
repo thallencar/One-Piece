@@ -1,87 +1,229 @@
-.conteudo .logo-luffy{
-    background-size: cover;
-    background-image: url("../img/logo/one-piece-logo.png");
-    height: 100px;
-    width: 230px;
-    margin-bottom: 15px;
+.conteudo .logo-luffy {
+  background-size: cover;
+  background-image: url("../img/logo/one-piece-logo.png");
+  height: 8.125rem;
+  width: 75%;
+  margin-bottom: 0.313rem;
 }
 
-.conteudo .logo-zoro{
-    background-size: cover;
-    background-image: url("../img/logo/logo-zoro.png");
-    height: 110px;
-    width: 255px;
-    margin-bottom: 15px;
+.conteudo .logo-zoro {
+  background-size: cover;
+  background-image: url("../img/logo/logo-zoro.png");
+  height: 7.813rem;
+  width: 80%;
+  margin-bottom: 0.313rem;
 }
 
-.conteudo .logo-nami{
-    background-size: cover;
-    background-image: url("../img/logo/logo-nami.png");
-    height: 100px;
-    width: 280px;
-    margin-left: -20px;
-    margin-bottom: 15px;
+.conteudo .logo-nami {
+  background-size: cover;
+  background-image: url("../img/logo/logo-nami.png");
+  height: 8.125rem;
+  width: 85%;
+  margin-left: -1.25rem;
+  margin-bottom: 0.313rem;
 }
 
-.conteudo .logo-usopp{
-    background-size: cover;
-    background-image: url("../img/logo/logo-usopp.png");
-    height: 100px;
-    width: 300px;
-    margin-left: -15px;
-    margin-bottom: 15px;
+.conteudo .logo-usopp {
+  background-size: cover;
+  background-image: url("../img/logo/logo-usopp.png");
+  height: 6.875rem;
+  width: 90%;
+  margin-left: -0.938rem;
+  margin-bottom: 0.313rem;
 }
 
-.conteudo .logo-sanji{
-    background-size: cover;
-    background-image: url("../img/logo/logo-sanji.png");
-    height: 110px;
-    width: 265px;
-    margin-bottom: 15px;
+.conteudo .logo-sanji {
+  background-size: cover;
+  background-image: url("../img/logo/logo-sanji.png");
+  height: 8.438rem;
+  width: 85%;
+  margin-bottom: 0.313rem;
 }
 
-.conteudo .logo-chopper{
-    background-size: cover;
-    background-image: url("../img/logo/logo-chopper.png");
-    height: 100px;
-    width: 300px;
-    margin-left: -30px;
-    margin-bottom: 15px;  
+.conteudo .logo-chopper {
+  background-size: cover;
+  background-image: url("../img/logo/logo-chopper.png");
+  height: 7.5rem;
+  width: 90%;
+  margin-left: -1.875rem;
+  margin-bottom: 0.313rem;
 }
 
-.conteudo .logo-robin{
-    background-size: cover;
-    background-image: url("../img/logo/logo-nr.png");
-    height: 125px;
-    width: 300px;
-    margin-left: -10px;
-    margin-bottom: 15px;    
+.conteudo .logo-robin {
+  background-size: cover;
+  background-image: url("../img/logo/logo-nr.png");
+  height: 8.125rem;
+  width: 85%;
+  margin-left: -0.625rem;
+  margin-bottom: 0.313rem;
 }
 
-.conteudo .logo-franky{
-    background-size: cover;
-    background-image: url("../img/logo/logo-franky.png");
-    height: 120px;
-    width: 300px;
-    margin-left: -10px;
-    margin-bottom: 15px;    
+.conteudo .logo-franky {
+  background-size: cover;
+  background-image: url("../img/logo/logo-franky.png");
+  height: 8.125rem;
+  width: 85%;
+  margin-left: -0.625rem;
+  margin-bottom: 0.313rem;
 }
 
-.conteudo .logo-brook{
-    background-size: cover;
-    background-image: url("../img/logo/logo-brook.png");
-    height: 130px;
-    width: 300px;
-    margin-left: -10px;
-    margin-bottom: 5px;    
+.conteudo .logo-brook {
+  background-size: cover;
+  background-image: url("../img/logo/logo-brook.png");
+  height: 8.125rem;
+  width: 85%;
+  margin-left: -0.625rem;
+  margin-bottom: 0.313rem;
 }
 
-.conteudo .logo-jinbe{
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url("../img/logo/logo-jinbe.png");
-    height: 100px;
-    width: 250px;
-    margin-left: -10px;  
-    margin-bottom: 5px;  
+.conteudo .logo-jinbe {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/logo/logo-jinbe.png");
+  height: 6.25rem;
+  width: 80%;
+  margin-left: -0.625rem;
+  margin-bottom: 0.313rem;
+}
+
+@media (max-width: 769px) {
+  .conteudo .logo-luffy {
+    height: 7.25rem;
+    width: 65%;
+    margin-bottom: 0.3rem;
+  }
+
+  .conteudo .logo-zoro {
+    height: 7.25rem;
+    width: 70%;
+    margin-bottom: 0.3em;
+  }
+
+  .conteudo .logo-nami {
+    height: 7rem;
+    width: 75%;
+    margin-left: -1.25rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .conteudo .logo-usopp {
+    height: 6.5rem;
+    width: 80%;
+    margin-left: -0.938rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .conteudo .logo-sanji {
+    height: 7.6rem;
+    width: 75%;
+    margin-bottom: 0.3rem;
+  }
+
+  .conteudo .logo-chopper {
+    height: 6rem;
+    width: 75%;
+    margin-left: -1.875rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .conteudo .logo-robin {
+    height: 7.6rem;
+    width: 75%;
+    margin-left: -0.625rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .conteudo .logo-franky {
+    height: 7.6rem;
+    width: 75%;
+    margin-left: -0.625rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .conteudo .logo-brook {
+    height: 7.6rem;
+    width: 75%;
+    margin-left: -0.625rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .conteudo .logo-jinbe {
+    height: 6.25rem;
+    width: 70%;
+    margin-left: -0.625rem;
+    margin-bottom: 0.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .imagem {
+    height: fit-content;
+  }
+
+  .conteudo .logo-luffy {
+    height: 6rem;
+    width: 55%;
+    margin-bottom: 0;
+  }
+
+  .conteudo .logo-zoro {
+    height: 5.5rem;
+    width: 60%;
+    margin-bottom: 0;
+  }
+
+  .conteudo .logo-nami {
+    height: 5rem;
+    width: 65%;
+    margin-left: -1.25rem;
+    margin-bottom: 0;
+  }
+
+  .conteudo .logo-usopp {
+    height: 4.5rem;
+    width: 65%;
+    margin-left: -0.938rem;
+    margin-bottom: 0;
+  }
+
+  .conteudo .logo-sanji {
+    height: 5.5rem;
+    width: 65%;
+    margin-bottom: 0;
+  }
+
+  .conteudo .logo-chopper {
+    height: 5rem;
+    width: 65%;
+    margin-left: -1.875rem;
+    margin-bottom: 0;
+  }
+
+  .conteudo .logo-robin {
+    height: 6rem;
+    width: 65%;
+    margin-left: -0.625rem;
+    margin-bottom: 0;
+  }
+
+  .conteudo .logo-franky {
+    height: 6rem;
+    width: 65%;
+    margin-left: -0.625rem;
+    margin-bottom: 0;
+  }
+
+  .conteudo .logo-brook {
+    height: 6rem;
+    width: 65%;
+    margin-left: -0.625rem;
+    margin-bottom: 0;
+  }
+
+  .conteudo .logo-jinbe {
+    height: 4.5rem;
+    width: 63%;
+    margin-left: -0.625rem;
+    margin-bottom: 0;
+  }
 }
