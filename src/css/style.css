@@ -87,6 +87,10 @@ main .personagem .imagem {
 }
 
 @media (max-width: 500px) {
+  body {
+    overflow-y: auto;
+  }
+
   main .personagem .imagem {
     height: auto;
     max-height: 13rem;
